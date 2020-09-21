@@ -4,10 +4,15 @@ docker pull tensorflow/tensorflow:1.15.0-gpu-py3-jupyter
  
 # docker run
 docker run \
+
 --gpus all \  ** 모든 GPU 사용하도록 지정
+
 -it \  ** interactive over terminal
+
 -p 8888:8888 \  ** 포트매핑 또는 포워딩
+
 -v /alsolute/path/to/shared/dir:/target/dir \  ** 디렉토리 공유
+
 tensorflow/tensorflow:1.15.0-gpu-py3-jupyter  ** 실행할 이미지 지정
 
 TIP
