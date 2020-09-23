@@ -18,3 +18,11 @@ Add line: lcd_rotate=2
   - export DISPLAY=:0
   - ./evdev-calibration
   - [주의] There is no support for rotated displays
+  
+## 가상 키보드
+  - sudo apt install matchbox-keyboard
+  - src: https://pimylifeup.com/raspberry-pi-on-screen-keyboard/
+  - 실행방법
+    - Menu > Accessories > Keyboard
+    - 터미널에서 실행 : matchbox-keyboard
+    - ssh 로 실행 : DISPLAY=:0 matchbox-keyboard &
