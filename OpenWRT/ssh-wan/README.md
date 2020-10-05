@@ -16,7 +16,6 @@ config rule
     option proto            tcp 
 ```
 
-그리고, restart ('reboot' commmand)! 그럼, open wrt 가 port 22 request from wan을 accept 할 것임.
+3. restart ('reboot' commmand)! 그럼, open wrt 가 port 22 request from wan을 accept 할 것임.
 
-위의 방법을 통해서, WAN에서 OpenWRT SSH 접속이 가능했음.
-
+위의 방법을 통해서, WAN에서 OpenWRT SSH 접속이 가능해졌음.
