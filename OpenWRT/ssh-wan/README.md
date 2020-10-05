@@ -8,15 +8,13 @@ WAN에서 접속하려면:
 1. https://gist.github.com/lynus/3446706
 2. add the following lines in /etc/config/firewall :
 
+```
 config rule
-
     option src              wan
-    
     option dest_port        22
-    
     option target           ACCEPT
-    
     option proto            tcp 
+```
 
 그리고, restart ('reboot' commmand)! 그럼, open wrt 가 port 22 request from wan을 accept 할 것임.
 
