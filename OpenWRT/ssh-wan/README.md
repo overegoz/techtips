@@ -17,3 +17,4 @@ config rule
 after restart ('reboot' commmand),wrt accept port 22 request (in this case ,ssh request)from wan.
 
 위의 방법을 통해서, WAN에서 OpenWRT SSH 접속이 가능했음.
+
