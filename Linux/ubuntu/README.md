@@ -2,7 +2,7 @@
 
 ## Ubuntu 18.04 to 20.04
 
-https://www.cyberciti.biz/faq/upgrade-ubuntu-18-04-to-20-04-lts-using-command-line/
+From : https://www.cyberciti.biz/faq/upgrade-ubuntu-18-04-to-20-04-lts-using-command-line/
 
 1. Upgrade all installed packages of Ubuntu version 18.04 by running `sudo apt update && sudo apt upgrade` command.
 2. Reboot the Ubuntu Linux system by tying the `sudo reboot` command
